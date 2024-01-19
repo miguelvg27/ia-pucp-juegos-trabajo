@@ -279,8 +279,8 @@ class my_ML_Agent(Agent):
         #Si es un DecisionTreeClassifier o un RandomForestClassifier
         #accionNum = int(self.modelo.predict(X))
         probas = self.modelo.predict_proba(X)[0] #obtenemos el arreglo con la probabilidad por acción
-        accionList = np.flip(np.argsort(probas)) #ordenamos los índices de mayor a menor
-        #print(f'acciones {accionList}')
+        accionesProbables = np.flip(np.argsort(probas)) #ordenamos los índices de mayor a menor
+        #print(f'acciones {accionesProbables}')
         maxStops = 5 # colocamos un tope a los stops seguidos
 
         #Si es un keras sequential
@@ -294,12 +294,12 @@ class my_ML_Agent(Agent):
         ####Si deseas, usa la variable `self.cantAccionesInvalidas`
 
         #Codificar el comportamiento del agente para el caso de predecir una accion inválida
-        accionNum = 0 # acción por defecto
-        for accion in accionList:
+        accionRetorno = 0 # acción por defecto
+        for accion in accionesProbables:
             if movelist[accion] in legalActions:
-                accionNum = accion
+                accionRetorno = accion
                 # validar que no haga más de 10 stops seguidos
-                if accionNum == 0:
+                if accionRetorno == 0:
                     self.stops_seguidos = self.stops_seguidos + 1
                 else:
                     self.stops_seguidos = 0
@@ -307,8 +307,8 @@ class my_ML_Agent(Agent):
                 if(self.stops_seguidos > maxStops):
                     continue
 
-                #print(f'elegida {accionNum} {">>>>>>>>>>>>>>>" if accionNum != accionList[0] else ""}')
+                #print(f'elegida {accionRetorno} {">>>>>>>>>>>>>>>" if accionRetorno != accionesProbables[0] else ""}')
 
                 break
 
-        return movelist[accionNum]
+        return movelist[accionRetorno]
