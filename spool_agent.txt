@@ -1,0 +1,120 @@
+gitpod /workspace/Pacman_UCB_Behavioral_Cloning (main) $ python3 pacman.py -p my_ML_Agent -n 100
+Python: 3.10.12 (main, Jan 16 2024, 20:45:51) [GCC 11.4.0]
+scipy: 1.11.4
+numpy: 1.23.5
+matplotlib: 3.7.2
+pandas: 2.1.0
+sklearn: 1.3.0
+keras: 2.12.0
+pickle: 4.0
+
+===============
+
+Se inicializó el agente basado en Behavior Cloning
+Autor: Grupo número 3
+
+===============
+Pacman died! Score: 215
+Pacman died! Score: -57
+Pacman died! Score: -413
+Pacman died! Score: -243
+Pacman died! Score: -358
+Pacman emerges victorious! Score: 1450
+Pacman emerges victorious! Score: 1469
+Pacman died! Score: -190
+Pacman died! Score: -431
+Pacman died! Score: -350
+Pacman died! Score: 397
+Pacman died! Score: -270
+Pacman died! Score: -38
+Pacman died! Score: -463
+Pacman died! Score: 303
+Pacman died! Score: -431
+Pacman died! Score: 282
+Pacman died! Score: -349
+Pacman died! Score: 44
+Pacman died! Score: -345
+Pacman died! Score: -461
+Pacman died! Score: 445
+Pacman died! Score: -406
+Pacman died! Score: -435
+Pacman died! Score: 78
+Pacman died! Score: 254
+Pacman died! Score: -444
+Pacman died! Score: -99
+Pacman died! Score: -231
+Pacman died! Score: -410
+Pacman died! Score: 4
+Pacman died! Score: -403
+Pacman died! Score: 359
+Pacman died! Score: -118
+Pacman died! Score: -418
+Pacman died! Score: 624
+Pacman died! Score: 265
+Pacman died! Score: 182
+Pacman died! Score: -380
+Pacman died! Score: 167
+Pacman died! Score: -12
+Pacman died! Score: -420
+Pacman died! Score: -387
+Pacman died! Score: -241
+Pacman died! Score: -104
+Pacman died! Score: -461
+Pacman died! Score: 146
+Pacman died! Score: 21
+Pacman died! Score: 516
+Pacman died! Score: 393
+Pacman died! Score: 504
+Pacman died! Score: -73
+Pacman died! Score: 570
+Pacman died! Score: 578
+Pacman died! Score: -125
+Pacman died! Score: 538
+Pacman died! Score: 424
+Pacman emerges victorious! Score: 1453
+Pacman died! Score: -180
+Pacman died! Score: 253
+Pacman died! Score: -232
+Pacman died! Score: -40
+Pacman died! Score: 472
+Pacman died! Score: 246
+Pacman died! Score: -461
+Pacman died! Score: -129
+Pacman emerges victorious! Score: 1244
+Pacman died! Score: 403
+Pacman emerges victorious! Score: 1439
+Pacman died! Score: -109
+Pacman died! Score: -94
+Pacman died! Score: 252
+Pacman died! Score: -92
+Pacman died! Score: 18
+Pacman died! Score: -422
+Pacman died! Score: 168
+Pacman emerges victorious! Score: 1466
+Pacman died! Score: -205
+Pacman died! Score: 354
+Pacman died! Score: 66
+Pacman died! Score: 86
+Pacman died! Score: -129
+Pacman died! Score: -86
+Pacman died! Score: 134
+Pacman died! Score: 239
+Pacman died! Score: 218
+Pacman died! Score: 96
+Pacman died! Score: 82
+Pacman died! Score: 364
+Pacman died! Score: -12
+Pacman died! Score: -130
+Pacman died! Score: 283
+Pacman died! Score: 184
+Pacman died! Score: -101
+Pacman died! Score: 379
+Pacman died! Score: -307
+Pacman died! Score: 128
+Pacman died! Score: -67
+Pacman died! Score: -465
+Pacman died! Score: 395
+Average Score: 78.23
+Scores:        215.0, -57.0, -413.0, -243.0, -358.0, 1450.0, 1469.0, -190.0, -431.0, -350.0, 397.0, -270.0, -38.0, -463.0, 303.0, -431.0, 282.0, -349.0, 44.0, -345.0, -461.0, 445.0, -406.0, -435.0, 78.0, 254.0, -444.0, -99.0, -231.0, -410.0, 4.0, -403.0, 359.0, -118.0, -418.0, 624.0, 265.0, 182.0, -380.0, 167.0, -12.0, -420.0, -387.0, -241.0, -104.0, -461.0, 146.0, 21.0, 516.0, 393.0, 504.0, -73.0, 570.0, 578.0, -125.0, 538.0, 424.0, 1453.0, -180.0, 253.0, -232.0, -40.0, 472.0, 246.0, -461.0, -129.0, 1244.0, 403.0, 1439.0, -109.0, -94.0, 252.0, -92.0, 18.0, -422.0, 168.0, 1466.0, -205.0, 354.0, 66.0, 86.0, -129.0, -86.0, 134.0, 239.0, 218.0, 96.0, 82.0, 364.0, -12.0, -130.0, 283.0, 184.0, -101.0, 379.0, -307.0, 128.0, -67.0, -465.0, 395.0
+Win Rate:      6/100 (0.06)
+Record:        Loss, Loss, Loss, Loss, Loss, Win, Win, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Win, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Win, Loss, Win, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Win, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss
